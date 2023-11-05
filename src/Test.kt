@@ -2,6 +2,13 @@ fun main() {
     var currentSalary = 125000.00
     var newSalary = getSalary(currentSalary)
     println(newSalary)
+
+    var cars = arrayListOf("Toyota", "BMW", "Mercedes", "Audi", "Tesla Model Y")
+
+    var size = cars.size
+    println(size)
+    cars.remove("Mercedes")
+    println(size)
 }
 
 fun getSalary(currentSalary: Double): Double {
