@@ -1,3 +1,5 @@
+import Project.Animal
+
 open class Student (val name: String, val age: Int){
     fun displayInfo() {
         println("Name: $name, Age: $age")
@@ -70,7 +72,7 @@ class BankAccount {
 }
 
 // -------------------------------------------------
-
+/*
 abstract class Animal {
     abstract fun sound()
 }
@@ -86,7 +88,7 @@ class Cat : Animal() {
         println("Meow Meow")
     }
 }
-
+*/
 // -------------------------------------------------
 
 interface Readable {

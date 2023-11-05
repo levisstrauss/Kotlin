@@ -9,6 +9,14 @@ fun main() {
     println(size)
     cars.remove("Mercedes")
     println(size)
+
+    var numbers = arrayListOf(1, 2, 3, 4, 5)
+
+    fun doubleAndFilter(numbers: List<Int>): List<Int> {
+        return numbers.map { it * 2 }.filter { it % 3 == 0 }
+    }
+    val res = doubleAndFilter(numbers)
+    println(res)
 }
 
 fun getSalary(currentSalary: Double): Double {
